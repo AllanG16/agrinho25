@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #e01a0c;
+    background-color: #7d67a0;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -23,7 +23,8 @@ h2 {
     margin-top: 30px;
 }
 
-p {
+p,
+li{
     text-align: justify;
     margin: 20px auto;
     max-width: 1000px;
@@ -31,7 +32,7 @@ p {
 }
 
 .imagem-introducao,
-.infografico {
+.trator {
     display: block;
     margin: 20px auto;
     max-width: 40%;
@@ -77,7 +78,7 @@ footer p {
     }
 
     .imagem-introducao,
-    .infografico {
+    .trator {
         max-width: 90%;
     }
 
@@ -95,7 +96,7 @@ footer p {
 @media (min-width: 601px) and (max-width: 1024px) {
 
     .imagem-introducao,
-    .infografico {
+    .trator {
         max-width: 60%;
     }
 
